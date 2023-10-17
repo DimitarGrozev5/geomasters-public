@@ -1,0 +1,333 @@
+// TODO:
+// Add index where apropriate
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Client {
+  id Int @id @default(autoincrement())
+
+  deleted Boolean @default(false)
+
+  name String @default("")
+
+  Email Email[]
+  Phone Phone[]
+
+  CommunicationEvent CommunicationEvent[]
+  Message            Message[]
+  Task               Task[]
+}
+
+model CommunicationEvent {
+  id Int @id @default(autoincrement())
+
+  client   Client @relation(fields: [clientId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  clientId Int
+
+  createdAt BigInt
+
+  initialMessage   Message? @relation(fields: [initialMessageId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  initialMessageId Int?
+
+  task   Task? @relation(fields: [taskId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  taskId Int?  @unique
+}
+
+model Message {
+  id Int @id @default(autoincrement())
+
+  createdAt BigInt
+
+  name     String
+  email    String
+  phone    String
+  hasViber Boolean
+
+  ekatte             String
+  problemDescription String
+
+  meansOfContact ModeOfCommunication
+
+  administraded Boolean @default(false)
+
+  admin   Admin? @relation(fields: [adminId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  adminId Int?
+
+  ownerClient   Client? @relation(fields: [ownerClientId], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  ownerClientId Int?
+
+  task   Task? @relation(fields: [taskId], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  taskId Int?  @unique
+
+  CommunicationEvent CommunicationEvent[]
+}
+
+model Email {
+  id Int @id @default(autoincrement())
+
+  email      String
+  confirmed  Boolean @default(false)
+  subscribed Boolean @default(true)
+
+  comment String @default("")
+
+  client    Client?  @relation(fields: [clientId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  clientId  Int?
+  Partner   Partner? @relation(fields: [partnerId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  partnerId Int?
+}
+
+model Phone {
+  id Int @id @default(autoincrement())
+
+  phone     String
+  confirmed Boolean @default(false)
+  hasViber  Boolean
+
+  comment String @default("")
+
+  client    Client?  @relation(fields: [clientId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  clientId  Int?
+  Partner   Partner? @relation(fields: [partnerId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  partnerId Int?
+}
+
+model Task {
+  id Int @id @default(autoincrement())
+
+  deleted Boolean @default(false)
+
+  createdAt BigInt
+
+  description        String
+  partnerDescription String @default("")
+  ekatte             String
+
+  forClient   Client? @relation(fields: [forClientId], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  forClientId Int?
+
+  partner   Partner? @relation(fields: [partnerId], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  partnerId Int?
+
+  status            TaskStatus        @default(REGISTERED)
+  taskBasicCategory TaskBasicCategory @default(UNSET)
+
+  partnerRequest String @default("")
+
+  taskEvents         TaskEvent[]
+  CommunicationEvent CommunicationEvent?
+  Message            Message?
+}
+
+model TaskEvent {
+  id Int @id @default(autoincrement())
+
+  createdAt BigInt
+
+  whoTriggeredIt UserRole
+
+  adminTriggered Admin? @relation(fields: [adminId], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  adminId        Int?
+
+  partnerTriggered Partner? @relation(map: "PartnerTriggersTaskChange", name: "PartnerTriggersTaskChange", fields: [partnerId], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  partnerId        Int?
+
+  task   Task @relation(fields: [taskId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  taskId Int
+
+  statusFrom TaskStatus?
+  statusTo   TaskStatus?
+
+  taskBasicCategoryFrom TaskBasicCategory?
+  taskBasicCategoryTo   TaskBasicCategory?
+
+  partnerRequestFrom String? @default("")
+  partnerRequestTo   String? @default("")
+
+  partnerDescriptionFrom String? @default("")
+  partnerDescriptionTo   String? @default("")
+
+  partnerFrom   Partner? @relation(map: "TaskPartnerChangesFrom", name: "TaskPartnerChangesFrom", fields: [partnerId], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  partnerIdFrom Int?
+  partnerTo     Partner? @relation(map: "TaskPartnerChangesTo", name: "TaskPartnerChangesTo", fields: [partnerId], references: [id], onUpdate: Cascade, onDelete: SetNull)
+  partnerIdTo   Int?
+}
+
+// Generic Profile Data
+model User {
+  id Int @id @default(autoincrement())
+
+  passwordHash String
+
+  name         String
+  primaryEmail String @unique
+  primaryPhone String @unique
+
+  Admin   Admin?
+  Partner Partner?
+
+  @@index([primaryEmail, primaryPhone])
+}
+
+model Admin {
+  id         Int  @id @default(autoincrement())
+  puserData  User @relation(fields: [userDataId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  userDataId Int  @unique
+
+  authorityLevel AutorityLevel
+
+  // CommunicationLine CommunicationLine[]
+  // Task              Task[]
+  Message   Message[]
+  TaskEvent TaskEvent[]
+}
+
+model Partner {
+  id         Int  @id @default(autoincrement())
+  userData   User @relation(fields: [userDataId], references: [id], onUpdate: Restrict, onDelete: Restrict)
+  userDataId Int  @unique
+
+  deleted Boolean @default(false)
+
+  //   // How much money does the Partner have in his account
+  //   creditLine Boolean
+
+  // Partner firm data
+  firmName    String  @unique
+  firmEmails  Email[]
+  firmPhones  Phone[]
+  firmAddress String  @default("")
+  firmEKATTE  String
+
+  creditBalance  Int              @default(0)
+  creditMovement CreditMovement[] @relation("PartnerCreditOwner")
+
+  // Partner competency
+  competentInSurvey             Competency @default(WILLING)
+  competentInLayout             Competency @default(WILLING)
+  competentInCadastre           Competency @default(WILLING)
+  competentInExpertise          Competency @default(WILLING)
+  competentInPUP                Competency @default(WILLING)
+  competentInGrading            Competency @default(WILLING)
+  competentInConstructionLayout Competency @default(WILLING)
+  competentInGeneralEngineering Competency @default(WILLING)
+  competentInEvaluations        Competency @default(WILLING)
+
+  // Partner equipment
+  hasTotalStation Boolean @default(true)
+  hasGNSS         Boolean @default(true)
+  hasLevel        Boolean @default(true)
+  hasDrone        Boolean @default(false)
+
+  // General preferences
+  willingToTravelUpTo          Int @default(240)
+  willingToRegularlyTravelUpTo Int @default(120)
+
+  willingToTakeLongTermProjects Boolean @default(false)
+
+  Task               Task[]
+  TaskEventTriggeres TaskEvent[] @relation("PartnerTriggersTaskChange")
+  TaskEventTo        TaskEvent[] @relation("TaskPartnerChangesFrom")
+  TaskEventFrom      TaskEvent[] @relation("TaskPartnerChangesTo")
+}
+
+model CreditMovement {
+  id Int @id @default(autoincrement())
+
+  forPartner   Partner @relation(map: "PartnerCreditOwner", name: "PartnerCreditOwner", fields: [forPartnerId], references: [id])
+  forPartnerId Int
+
+  createdAt  BigInt
+  amount     Decimal
+  whoChanged UserRole
+
+  reason CreditMovementReason
+}
+
+enum CreditMovementReason {
+  PARTNER_INPUT
+  PARTNER_SPEND_ON_TASK
+  PARTNER_WITHDRAW
+  ADMIN_REFUND_TASK
+  ADMIN_CORRECT_ERROR
+}
+
+// Admin authority
+enum AutorityLevel {
+  FULL_CONTROL
+  CREATE_JOBS
+}
+
+// User role
+enum UserRole {
+  ADMIN
+  PARTNER
+}
+
+// Partner competency and preference
+enum Competency {
+  UNABLE
+  ABLE
+  WILLING
+}
+
+enum ModeOfCommunication {
+  PHONE
+  VIBER
+  EMAIL
+}
+
+enum TaskStatus {
+  REGISTERED
+  OFFERED
+  REJECTED
+  ACCEPTED
+  CLIENT_REJECTED
+  STARTED
+  FINISHED
+  UNABLE_TO_FINISH
+  IMPOSSIBLE
+}
+
+enum TaskBasicCategory {
+  // Трасиране на имоти
+  TRASIRANE
+  // Заснемане с различни цели (за проектиране, за кадастър), но без последваща обработка
+  ZASNEMANE
+  //Търпимост или озаконяване на сграда
+  TARPIMOST
+  // Изменение на КККР
+  IZMENENIE_KKKR
+  // Попълване на строеж, за издаване на акт 14
+  POPALVANE_STROEJ
+  // Делба или обединение на строеж
+  DELBA_OBEDINENIE
+  // Други задачи за кадастър
+  KKKR_DRUGI
+  // ВП
+  VP
+  // Откриване на строителна линия и даване на ниво
+  STROITELNA_LINIA
+  // Инженерни дейности, свързани със строителство на сгради и съоражения - трасиране на конструктивни елементи, екзекутиви и т.н.
+  STROITELSTVO
+  // ПУП
+  PUP
+  // Инженерни дейности - деформации, нивелация, РГО и т.н.
+  INJENERSTVO
+  // Оценка на СО
+  OCENKA_SO
+  // Оценка на ПИ/УПИ
+  OCENKA_PI
+
+  // Непосочен
+  UNSET
+  // Неизвестно
+  UNKNOWN
+}

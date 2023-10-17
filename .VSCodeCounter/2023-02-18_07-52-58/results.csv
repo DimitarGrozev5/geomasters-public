@@ -1,0 +1,207 @@
+"filename", "language", "JSON with Comments", "Properties", "JavaScript", "JSON", "Prisma", "TypeScript", "SQL", "TypeScript JSX", "CSS", "Markdown", "XML", "comment", "blank", "total"
+"f:\__Projects__\geo-fonf\.env", "Properties", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 2, 8
+"f:\__Projects__\geo-fonf\.eslintrc.json", "JSON with Comments", 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"f:\__Projects__\geo-fonf\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 15, 35
+"f:\__Projects__\geo-fonf\components\common\actor-overview-cards\client-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 142, 0, 0, 0, 0, 7, 149
+"f:\__Projects__\geo-fonf\components\common\actor-overview-cards\partner-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 204, 0, 0, 0, 0, 12, 216
+"f:\__Projects__\geo-fonf\components\common\actor-overview-cards\task-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 103, 0, 0, 0, 0, 13, 116
+"f:\__Projects__\geo-fonf\components\common\blurred.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 35, 0, 0, 0, 0, 4, 39
+"f:\__Projects__\geo-fonf\components\common\cards\filled-card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 47, 0, 0, 0, 0, 4, 51
+"f:\__Projects__\geo-fonf\components\common\cards\outline-card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 4, 49
+"f:\__Projects__\geo-fonf\components\common\contacts\email-contact.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 29, 0, 0, 0, 0, 4, 33
+"f:\__Projects__\geo-fonf\components\common\contacts\phone-contact.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 30, 0, 0, 0, 0, 4, 34
+"f:\__Projects__\geo-fonf\components\common\contacts\send-message.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 3, 4, 35
+"f:\__Projects__\geo-fonf\components\common\data-presentation\bullet-point.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 71, 0, 0, 0, 12, 10, 93
+"f:\__Projects__\geo-fonf\components\common\data-presentation\label-and-data.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 48, 0, 0, 0, 0, 4, 52
+"f:\__Projects__\geo-fonf\components\common\data-presentation\spacer.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 4, 13
+"f:\__Projects__\geo-fonf\components\common\data-presentation\span.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 4, 14
+"f:\__Projects__\geo-fonf\components\common\display-modifiers\error-text.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 4, 18
+"f:\__Projects__\geo-fonf\components\common\display-modifiers\primary-dark-text.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 0, 5, 33
+"f:\__Projects__\geo-fonf\components\common\display-modifiers\secondary-dark-text.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 4, 16
+"f:\__Projects__\geo-fonf\components\common\helper\background-image.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 51, 0, 0, 0, 1, 6, 58
+"f:\__Projects__\geo-fonf\components\common\helper\breakpoint-view.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 0, 0, 3, 25
+"f:\__Projects__\geo-fonf\components\common\helper\init-loader.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 6, 39
+"f:\__Projects__\geo-fonf\components\common\helper\render-counter.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 5, 12
+"f:\__Projects__\geo-fonf\components\common\inputs\card-radio.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 86, 0, 0, 0, 0, 4, 90
+"f:\__Projects__\geo-fonf\components\common\inputs\competency-switch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0, 0, 4, 35
+"f:\__Projects__\geo-fonf\components\common\inputs\confirm-button.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 29, 0, 0, 0, 0, 4, 33
+"f:\__Projects__\geo-fonf\components\common\inputs\confirm-modal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 6, 106
+"f:\__Projects__\geo-fonf\components\common\inputs\editable-fields\editable-data.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 160, 0, 0, 0, 4, 15, 179
+"f:\__Projects__\geo-fonf\components\common\inputs\editable-fields\editable-switch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 39, 0, 0, 0, 1, 5, 45
+"f:\__Projects__\geo-fonf\components\common\inputs\find-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 74, 0, 0, 0, 0, 5, 79
+"f:\__Projects__\geo-fonf\components\common\inputs\find-partner.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 6, 93
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\email-input\email-input.test.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 92, 0, 0, 0, 0, 20, 112
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\email-input\email-input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 37, 0, 0, 0, 1, 5, 43
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\form-data-type.ts", "TypeScript", 0, 0, 0, 0, 0, 29, 0, 0, 0, 0, 0, 15, 5, 49
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\name-input\name-input.test.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 44, 0, 0, 0, 0, 10, 54
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\name-input\name-input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 4, 28
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\phone-input.tsx\phone-input.test.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 174, 0, 0, 0, 0, 29, 203
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\phone-input.tsx\phone-input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 106, 0, 0, 0, 1, 8, 115
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\problem-input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 35, 0, 0, 0, 0, 5, 40
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\select-communication.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 72, 0, 0, 0, 0, 8, 80
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\select-location\autocpmplete-elements.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 123, 0, 0, 0, 1, 12, 136
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\select-location\select-location.test.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 118, 0, 0, 0, 3, 16, 137
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\select-location\select-location.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 51, 0, 0, 0, 1, 5, 57
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps-mobile\mobile-step-1.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 7, 40
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps-mobile\mobile-step-2.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 30, 0, 0, 0, 0, 7, 37
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps-mobile\mobile-step-3.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 62, 0, 0, 0, 0, 9, 71
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps-mobile\mobile-step-4.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 5, 43
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps-mobile\stepper-mobile.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 133, 0, 0, 0, 2, 12, 147
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps\step-1.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 0, 8, 50
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps\step-2.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 12, 81
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps\step-3.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 53, 0, 0, 0, 0, 6, 59
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\steps\stepper.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 62, 0, 0, 0, 2, 12, 76
+"f:\__Projects__\geo-fonf\components\common\inputs\message-us-inputs\useImageUrl.ts", "TypeScript", 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 2, 3, 24
+"f:\__Projects__\geo-fonf\components\common\inputs\password-field.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 4, 44
+"f:\__Projects__\geo-fonf\components\common\inputs\task-basic-category-select.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 7, 74
+"f:\__Projects__\geo-fonf\components\common\inputs\task-status-select.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 4, 37
+"f:\__Projects__\geo-fonf\components\data-fetching\data-display.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 5, 29
+"f:\__Projects__\geo-fonf\components\data-fetching\http-client.ts", "TypeScript", 0, 0, 0, 0, 0, 97, 0, 0, 0, 0, 0, 8, 14, 119
+"f:\__Projects__\geo-fonf\components\data-fetching\use-mutation.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 91, 0, 0, 0, 0, 7, 98
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\context\global-ctx.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 3, 14
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-footer.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 114, 0, 0, 0, 5, 6, 125
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\hooks\get-menu-transition-values.ts", "TypeScript", 0, 0, 0, 0, 0, 35, 0, 0, 0, 0, 0, 0, 8, 43
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\hooks\useMenuScrollPosition.ts", "TypeScript", 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 3, 16
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\main-drawer.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 132, 0, 0, 0, 9, 13, 154
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\main-header.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 5, 37
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\navigation-dropdown-menu.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 75, 0, 0, 0, 8, 10, 93
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\navigation-link.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 30, 0, 0, 0, 0, 5, 35
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\top-contact-desktop.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 6, 49
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\top-contact-mobile.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 49, 0, 0, 0, 0, 7, 56
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\top-contact.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 37, 0, 0, 0, 0, 5, 42
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\top-contacts-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 76, 0, 0, 0, 0, 7, 83
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-header\top-menues.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 143, 0, 0, 0, 0, 12, 155
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\main-layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 1, 6, 62
+"f:\__Projects__\geo-fonf\components\layouts\main-layout\modal\modal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 34, 0, 0, 0, 0, 4, 38
+"f:\__Projects__\geo-fonf\components\layouts\new-task\new-task.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 6, 138
+"f:\__Projects__\geo-fonf\components\layouts\page-card\page-card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 0, 4, 25
+"f:\__Projects__\geo-fonf\components\layouts\page-layout\page-layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 4, 45
+"f:\__Projects__\geo-fonf\components\layouts\page-services\service-header.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 4, 17
+"f:\__Projects__\geo-fonf\components\layouts\page-services\service-paragraph.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 0, 4, 32
+"f:\__Projects__\geo-fonf\components\layouts\page-services\visual-aid.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 4, 44
+"f:\__Projects__\geo-fonf\components\layouts\send-message-overlay\send-message-overlay.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 166, 0, 0, 0, 1, 13, 180
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\client-messages.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 4, 42
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\client-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 5, 74
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\client-profile.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 152, 0, 0, 0, 0, 12, 164
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\email-form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 7, 67
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\messages\init-message.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 36, 0, 0, 0, 3, 5, 44
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\messages\message-box.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 0, 0, 6, 28
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\messages\message.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 4, 28
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\messages\task-message.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 3, 6, 59
+"f:\__Projects__\geo-fonf\components\page-components\admin-clients\phone-form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 95, 0, 0, 0, 0, 7, 102
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\admin-messages-layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 76, 0, 0, 0, 7, 6, 89
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\message-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 62, 0, 0, 0, 0, 11, 73
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\modal-new-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 131, 0, 0, 0, 0, 10, 141
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\modal-new-task.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 180, 0, 0, 0, 0, 12, 192
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\new-messages-overview\attached-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 111, 0, 0, 0, 0, 10, 121
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\new-messages-overview\client-data.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 5, 28
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\new-messages-overview\client-description.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 4, 28
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\new-messages-overview\similar-clients-card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 4, 47
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\new-messages-overview\similar-clients.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 90, 0, 0, 0, 0, 7, 97
+"f:\__Projects__\geo-fonf\components\page-components\admin-messages\new-messages-overview\task-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 5, 48
+"f:\__Projects__\geo-fonf\components\page-components\index\about-us-landing.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 149, 0, 0, 0, 1, 12, 162
+"f:\__Projects__\geo-fonf\components\page-components\index\landing-details.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 113, 0, 0, 0, 3, 11, 127
+"f:\__Projects__\geo-fonf\components\page-components\index\landing-overview-card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 44, 0, 0, 0, 0, 8, 52
+"f:\__Projects__\geo-fonf\components\page-components\index\main-landing.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 213, 0, 0, 0, 1, 15, 229
+"f:\__Projects__\geo-fonf\components\page-components\index\sales-pitch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 220, 0, 0, 0, 2, 14, 236
+"f:\__Projects__\geo-fonf\components\page-components\partners\admin\admin-control.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 1, 7, 75
+"f:\__Projects__\geo-fonf\components\page-components\partners\admin\admin-data.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 174, 0, 0, 0, 0, 13, 187
+"f:\__Projects__\geo-fonf\components\page-components\partners\admin\admin-settings.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 184, 0, 0, 0, 0, 12, 196
+"f:\__Projects__\geo-fonf\components\page-components\partners\admin\admin-tasks.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 26, 0, 0, 0, 0, 5, 31
+"f:\__Projects__\geo-fonf\components\page-components\partners\ekatte-form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 103, 0, 0, 0, 0, 8, 111
+"f:\__Projects__\geo-fonf\components\page-components\partners\email-form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 7, 67
+"f:\__Projects__\geo-fonf\components\page-components\partners\modal-new-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 149, 0, 0, 0, 0, 11, 160
+"f:\__Projects__\geo-fonf\components\page-components\partners\not-admin\admin-settings.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 176, 0, 0, 0, 0, 12, 188
+"f:\__Projects__\geo-fonf\components\page-components\partners\not-admin\business -card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 173, 0, 0, 0, 0, 17, 190
+"f:\__Projects__\geo-fonf\components\page-components\partners\not-admin\data.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 173, 0, 0, 0, 0, 13, 186
+"f:\__Projects__\geo-fonf\components\page-components\partners\partner-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 78, 0, 0, 0, 0, 5, 83
+"f:\__Projects__\geo-fonf\components\page-components\partners\phone-form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 95, 0, 0, 0, 0, 7, 102
+"f:\__Projects__\geo-fonf\components\page-components\tasks\admin-task-data.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 265, 0, 0, 0, 0, 19, 284
+"f:\__Projects__\geo-fonf\components\page-components\tasks\admin-task-events.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 131, 0, 0, 0, 0, 10, 141
+"f:\__Projects__\geo-fonf\components\page-components\tasks\admin-task-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 5, 61
+"f:\__Projects__\geo-fonf\components\page-components\tasks\ekatte-form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 103, 0, 0, 0, 0, 8, 111
+"f:\__Projects__\geo-fonf\components\page-components\tasks\modal-new-task.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 176, 0, 0, 0, 0, 12, 188
+"f:\__Projects__\geo-fonf\components\page-components\tasks\partner-task-data.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 182, 0, 0, 0, 0, 18, 200
+"f:\__Projects__\geo-fonf\components\page-components\tasks\partner-task-overview.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 5, 38
+"f:\__Projects__\geo-fonf\components\page-components\tasks\set-client-form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 66, 0, 0, 0, 0, 9, 75
+"f:\__Projects__\geo-fonf\components\page-components\tasks\set-partner-form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 73, 0, 0, 0, 0, 9, 82
+"f:\__Projects__\geo-fonf\config\db.ts", "TypeScript", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 4, 12
+"f:\__Projects__\geo-fonf\config\dinero.ts", "TypeScript", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 2
+"f:\__Projects__\geo-fonf\config\landingPages.ts", "TypeScript", 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 1, 3, 11
+"f:\__Projects__\geo-fonf\data\ekatte.ts", "TypeScript", 0, 0, 0, 0, 0, 5299, 0, 0, 0, 0, 0, 0, 5, 5304
+"f:\__Projects__\geo-fonf\data\task-basic-category.ts", "TypeScript", 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 2, 34
+"f:\__Projects__\geo-fonf\data\task-status.ts", "TypeScript", 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 2, 21
+"f:\__Projects__\geo-fonf\hooks\use-get-screen-orientation.ts", "TypeScript", 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 0, 18, 12, 73
+"f:\__Projects__\geo-fonf\hooks\use-screen-size.ts", "TypeScript", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 12, 7, 39
+"f:\__Projects__\geo-fonf\hooks\useAuth.ts", "TypeScript", 0, 0, 0, 0, 0, 34, 0, 0, 0, 0, 0, 3, 8, 45
+"f:\__Projects__\geo-fonf\jest.config.js", "JavaScript", 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 8, 4, 21
+"f:\__Projects__\geo-fonf\model\auth\credential-provider-model.ts", "TypeScript", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 3, 9
+"f:\__Projects__\geo-fonf\model\data-transfer\client.ts", "TypeScript", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 3, 11
+"f:\__Projects__\geo-fonf\model\id.type.ts", "TypeScript", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 2
+"f:\__Projects__\geo-fonf\model\middlewares\is-admin.ts", "TypeScript", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 2, 3, 28
+"f:\__Projects__\geo-fonf\model\middlewares\is-auth.ts", "TypeScript", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 2, 3, 28
+"f:\__Projects__\geo-fonf\model\middlewares\middleware-pipe.ts", "TypeScript", 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 3, 8, 49
+"f:\__Projects__\geo-fonf\model\server-error.ts", "TypeScript", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 4, 20
+"f:\__Projects__\geo-fonf\model\style-function.ts", "TypeScript", 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 4
+"f:\__Projects__\geo-fonf\next.config.js", "JavaScript", 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 7
+"f:\__Projects__\geo-fonf\package-lock.json", "JSON", 0, 0, 0, 14724, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14725
+"f:\__Projects__\geo-fonf\package.json", "JSON", 0, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 1, 51
+"f:\__Projects__\geo-fonf\pages\_app.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 54, 0, 0, 0, 0, 7, 61
+"f:\__Projects__\geo-fonf\pages\_document.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 48, 0, 0, 0, 31, 8, 87
+"f:\__Projects__\geo-fonf\pages\about-us.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"f:\__Projects__\geo-fonf\pages\admin\clients\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 148, 0, 0, 0, 3, 13, 164
+"f:\__Projects__\geo-fonf\pages\admin\messages\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 193, 0, 0, 0, 2, 13, 208
+"f:\__Projects__\geo-fonf\pages\admin\partners\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 168, 0, 0, 0, 5, 14, 187
+"f:\__Projects__\geo-fonf\pages\admin\tasks\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 171, 0, 0, 0, 5, 14, 190
+"f:\__Projects__\geo-fonf\pages\api\auth\[...nextauth].ts", "TypeScript", 0, 0, 0, 0, 0, 78, 0, 0, 0, 0, 0, 8, 7, 93
+"f:\__Projects__\geo-fonf\pages\api\clients\[clientId]\emails.ts", "TypeScript", 0, 0, 0, 0, 0, 53, 0, 0, 0, 0, 0, 2, 6, 61
+"f:\__Projects__\geo-fonf\pages\api\clients\[clientId]\index.ts", "TypeScript", 0, 0, 0, 0, 0, 161, 0, 0, 0, 0, 0, 7, 18, 186
+"f:\__Projects__\geo-fonf\pages\api\clients\[clientId]\name.ts", "TypeScript", 0, 0, 0, 0, 0, 49, 0, 0, 0, 0, 0, 2, 6, 57
+"f:\__Projects__\geo-fonf\pages\api\clients\[clientId]\phones.ts", "TypeScript", 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 0, 2, 6, 64
+"f:\__Projects__\geo-fonf\pages\api\clients\index.ts", "TypeScript", 0, 0, 0, 0, 0, 125, 0, 0, 0, 0, 0, 13, 13, 151
+"f:\__Projects__\geo-fonf\pages\api\emails\[emailId]\email.ts", "TypeScript", 0, 0, 0, 0, 0, 78, 0, 0, 0, 0, 0, 5, 10, 93
+"f:\__Projects__\geo-fonf\pages\api\emails\[emailId]\index.ts", "TypeScript", 0, 0, 0, 0, 0, 71, 0, 0, 0, 0, 0, 5, 10, 86
+"f:\__Projects__\geo-fonf\pages\api\hello.ts", "TypeScript", 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 15, 3, 35
+"f:\__Projects__\geo-fonf\pages\api\messages\[msgId]\administraded.ts", "TypeScript", 0, 0, 0, 0, 0, 46, 0, 0, 0, 0, 0, 2, 6, 54
+"f:\__Projects__\geo-fonf\pages\api\messages\[msgId]\ownerClient.ts", "TypeScript", 0, 0, 0, 0, 0, 139, 0, 0, 0, 0, 0, 6, 15, 160
+"f:\__Projects__\geo-fonf\pages\api\messages\index.ts", "TypeScript", 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 7, 9, 103
+"f:\__Projects__\geo-fonf\pages\api\messages\new.ts", "TypeScript", 0, 0, 0, 0, 0, 53, 0, 0, 0, 0, 0, 4, 5, 62
+"f:\__Projects__\geo-fonf\pages\api\messages\old.ts", "TypeScript", 0, 0, 0, 0, 0, 53, 0, 0, 0, 0, 0, 4, 5, 62
+"f:\__Projects__\geo-fonf\pages\api\partners\[partnerId]\[...param].ts", "TypeScript", 0, 0, 0, 0, 0, 183, 0, 0, 0, 0, 0, 6, 15, 204
+"f:\__Projects__\geo-fonf\pages\api\partners\[partnerId]\firmEmails.ts", "TypeScript", 0, 0, 0, 0, 0, 66, 0, 0, 0, 0, 0, 4, 8, 78
+"f:\__Projects__\geo-fonf\pages\api\partners\[partnerId]\firmPhones.ts", "TypeScript", 0, 0, 0, 0, 0, 70, 0, 0, 0, 0, 0, 4, 7, 81
+"f:\__Projects__\geo-fonf\pages\api\partners\[partnerId]\index.ts", "TypeScript", 0, 0, 0, 0, 0, 121, 0, 0, 0, 0, 0, 7, 16, 144
+"f:\__Projects__\geo-fonf\pages\api\partners\[partnerId]\password.ts", "TypeScript", 0, 0, 0, 0, 0, 106, 0, 0, 0, 0, 0, 3, 13, 122
+"f:\__Projects__\geo-fonf\pages\api\partners\index.ts", "TypeScript", 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 6, 15, 153
+"f:\__Projects__\geo-fonf\pages\api\phones\[phoneId]\hasViber.ts", "TypeScript", 0, 0, 0, 0, 0, 78, 0, 0, 0, 0, 0, 5, 10, 93
+"f:\__Projects__\geo-fonf\pages\api\phones\[phoneId]\index.ts", "TypeScript", 0, 0, 0, 0, 0, 71, 0, 0, 0, 0, 0, 5, 10, 86
+"f:\__Projects__\geo-fonf\pages\api\phones\[phoneId]\phone.ts", "TypeScript", 0, 0, 0, 0, 0, 78, 0, 0, 0, 0, 0, 5, 10, 93
+"f:\__Projects__\geo-fonf\pages\api\tasks\[taskId]\[...param].ts", "TypeScript", 0, 0, 0, 0, 0, 574, 0, 0, 0, 0, 0, 17, 36, 627
+"f:\__Projects__\geo-fonf\pages\api\tasks\[taskId]\index.ts", "TypeScript", 0, 0, 0, 0, 0, 188, 0, 0, 0, 0, 0, 7, 20, 215
+"f:\__Projects__\geo-fonf\pages\api\tasks\index.ts", "TypeScript", 0, 0, 0, 0, 0, 180, 0, 0, 0, 0, 0, 12, 21, 213
+"f:\__Projects__\geo-fonf\pages\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 0, 2, 8, 73
+"f:\__Projects__\geo-fonf\pages\login.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"f:\__Projects__\geo-fonf\pages\partner\profile.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 0, 1, 5, 69
+"f:\__Projects__\geo-fonf\pages\partner\tasks.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 154, 0, 0, 0, 5, 13, 172
+"f:\__Projects__\geo-fonf\pages\partners\[partnerId]\resetPassword.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 148, 0, 0, 0, 1, 16, 165
+"f:\__Projects__\geo-fonf\pages\partners\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 0, 6, 61
+"f:\__Projects__\geo-fonf\pages\services\cadastre.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"f:\__Projects__\geo-fonf\pages\services\design.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"f:\__Projects__\geo-fonf\pages\services\eval.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"f:\__Projects__\geo-fonf\pages\services\geodesy.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 3, 91
+"f:\__Projects__\geo-fonf\pages\services\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 156, 0, 0, 0, 0, 3, 159
+"f:\__Projects__\geo-fonf\pages\services\trasirane.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 318, 0, 0, 0, 0, 12, 330
+"f:\__Projects__\geo-fonf\prisma\migrations\20230126203958_init\migration.sql", "SQL", 0, 0, 0, 0, 0, 0, 111, 0, 0, 0, 0, 19, 27, 157
+"f:\__Projects__\geo-fonf\prisma\schema.prisma", "Prisma", 0, 0, 0, 0, 207, 0, 0, 0, 0, 0, 0, 30, 74, 311
+"f:\__Projects__\geo-fonf\public\next.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"f:\__Projects__\geo-fonf\public\thirteen.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"f:\__Projects__\geo-fonf\public\vercel.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"f:\__Projects__\geo-fonf\styles\globals.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"f:\__Projects__\geo-fonf\styles\themes\light-theme-options.ts", "TypeScript", 0, 0, 0, 0, 0, 109, 0, 0, 0, 0, 0, 0, 9, 118
+"f:\__Projects__\geo-fonf\tsconfig.json", "JSON with Comments", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 21
+"f:\__Projects__\geo-fonf\utility\assertContext.ts", "TypeScript", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 1, 9
+"f:\__Projects__\geo-fonf\utility\createEmotionCache.ts", "TypeScript", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 3, 8
+"f:\__Projects__\geo-fonf\utility\image-util.ts", "TypeScript", 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 3
+"f:\__Projects__\geo-fonf\utility\normalize.ts", "TypeScript", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 2, 8
+"f:\__Projects__\geo-fonf\utility\validation\isEmail.ts", "TypeScript", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 2
+"Total", "-", 23, 1, 13, 14774, 207, 8817, 111, 10952, 0, 20, 3, 424, 1607, 36952
